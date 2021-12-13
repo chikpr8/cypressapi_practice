@@ -48,6 +48,7 @@ describe("post api", () => {
           expect(resp.status).to.eq(200);
           expect(resp.body.data).has.property("id", userid);
           expect(resp.body.data).has.property("name", "praveenjairaj");
+          expect(resp.body.data).has.property("status", "active");
         });
       });
   });
