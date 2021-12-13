@@ -1,0 +1,14 @@
+{
+  "name": "cypressapi_practice",
+  "version": "1.0.0",
+  "description": "This is for cypress api automation practice",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "praveen",
+  "license": "ISC",
+  "devDependencies": {
+    "cypress": "^9.1.1"
+  }
+}
